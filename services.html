@@ -1,0 +1,426 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Пространство</title>
+
+    <!-- Значок сайта -->
+    <link rel="icon" href="./img/core-img/favicon.png">
+
+    <!-- Таблица стилей -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Предварительный загрузчик -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+
+    <!-- Верхняя область формы поиска -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Введите текст и нажмите Enter...">
+                            <button type="submit">Поиск</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ <!-- Начало  заголовка -->
+ <header class="header-area">
+    <!-- Начало главного заголовка -->
+    <div class="main-header-area">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                
+                <!-- Меню весь -->
+                <nav class="classy-navbar justify-content-between" id="alimeNav">
+
+                    <!-- Логотип -->
+                    <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+
+                    <!--Переключатель панели навигации -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Меню -->
+                    <div class="classy-menu">
+                        <!-- Кнопка закрытия меню -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <!-- Навигация Старт -->
+                        <div class="classynav">
+                            <ul id="nav">
+                                <li><a href="#">Студия</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./halls.html">- Залы</a></li>
+                                        <li><a href="./equipment.html">- Оборудование</a></li>
+                                        <li><a href="./projects.html">- Проекты</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./about.html">О нас</a></li>
+                                <li><a href="./photographers.html">Сотрудники</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./photographers.html">- Фотографы</a></li>
+                                        <li><a href="./videographer.html">- Видеографы</a></li>
+                                        <li><a href="./stylist.html">- Стилисты</a></li>
+                                    </ul>
+                                </li>
+                                <li class="active"><a href="./services.html">Услуги</a></li>
+                                <li><a href="./contact.html">Контакты</a></li>
+                            </ul>
+
+                            <!-- Иконка поиска-->
+                            <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>
+                        </div>
+                        <!-- конец -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Конец области заголовка -->
+
+    <!-- Начальная область навигации -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/48.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2 class="page-title">Услуги</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i>Главная</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Услуги</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- конец области -->
+
+
+    <!-- услуги- -->
+    <section class="why-choose-us-area bg-gray section-padding-80-0 clearfix">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12">
+                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                        <h2>Услуги фотографа</h2>
+                        <p style="text-align:center">Цены могут изменяться от сложности съемки.</p>
+                    </div>
+                </div>
+
+                <div class="columns">
+                  <ul class="price">
+                    <li class="header">Базовый</li>
+                    <li class="grey">2 500 ₽ / 1 час</li>
+                    <li>60-120 фотографий</li>
+                    <li>10 обработаных</li>
+                    <li>45 минут студии</li>
+                    <li>Штатный фотограф</li>
+                    <li class="grey"><a href="./application.html" class="button">Отправить заявку</a></li>
+                  </ul>
+                </div>
+                
+                <div class="columns">
+                  <ul class="price">
+                    <li class="header" style="background-color:#9FC8E9">Premium</li>
+                    <li class="grey">15 500 ₽ / 3 час</li>
+                    <li>150-250 фотографий</li>
+                    <li>Услуги стилиста</li>
+                    <li>165 минут студии</li>
+                    <li>Штатный фотограф</li>
+                    <li class="grey"><a href="./application.html" class="button">Отправить заявку</a></li>
+                  </ul>
+                </div>
+                
+                <div class="columns">
+                  <ul class="price">
+                    <li class="header">Свадебный</li>
+                    <li class="grey">45 500 ₽ / 4 час</li>
+                    <li>Альбом фотографий</li>
+                    <li>30 обработаных</li>
+                    <li>150-250 фотографий</li>
+                    <li>Штатный фотограф</li>
+                    <li class="grey"><a href="./application.html" class="button">Отправить заявку</a></li>
+                  </ul>
+                </div>
+            </section>
+    <!-- конец прайса -->
+
+    <div class="about-us-area section-padding-80-0 clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="about-us-content mb-80">
+                        <h3 class="wow fadeInUp" data-wow-delay="100ms">Фотография на документы</h3>
+                        <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
+                        <p class="wow fadeInUp" data-wow-delay="300ms">  Качественное фото на документы на котором вы себе понравитесь! 
+                            <b>  Комплект фотографий «Лайт»</b>
+                            4 фотографии без ретуши
+                            Цена: 200₽
+                            <b>  Комплект фотографий «С ретушью»</b>
+4 фотографии с ретушью.
+Отправка фото на электронную почту.
+Цена: 500₽
+
+ </p>
+                        <p class="wow fadeInUp" data-wow-delay="400ms"><b>   Комплект фотографий «Премиум» + экспресс-укладка*.</b>
+                         4 фотографии с ретушью.
+                       Экспресс-макияж и экспресс-укладка перед фото.
+                         Отправка фото на электронную почту.
+                        <b> Услуга доступна только на Крупской 19.</b>
+                         Цена: 2 500₽ 
+                           <i>  *Только по предварительной записи</i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="about-video-area mb-80 wow fadeInUp" data-wow-delay="100ms">
+                        <img src="img/bg-img/Снимок2.JPG" alt="фото на документы">
+                        
+                    </div>
+                </div>
+            </div>
+
+    <!-- услуги- -->
+    <section class="why-choose-us-area bg-gray section-padding-80-0 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                        <h2>Услуги видеографа</h2>
+                        <p style="text-align:center">Цены могут изменяться от сложности съемки.</p>
+                    </div>
+                </div>
+
+                <div class="columns">
+                  <ul class="price">
+                    <li class="header">Базовый</li>
+                    <li class="grey">4 500 ₽ / 2 час</li>
+                    <li>монтаж</li>
+                    <li>Видео длиной 30-3 минут</li>
+                    <li>Штатный видеограф</li>
+                    <li class="grey"><a href="./application.html" class="button">Отправить заявку</a></li>
+                  </ul>
+                </div>
+                
+                <div class="columns">
+                  <ul class="price">
+                    <li class="header" style="background-color:#9FC8E9">Premium</li>
+                    <li class="grey">25 500 ₽ / 3 час</li>
+                    <li>Съемка с коптера</li>
+                    <li>Видео длиной 3-5 минут</li>
+                    <li>Штатный видеограф</li>
+                    <li class="grey"><a href="./application.html" class="button">Отправить заявку</a></li>
+                  </ul>
+                </div>
+                
+                <div class="columns">
+                  <ul class="price">
+                    <li class="header">Свадебный</li>
+                    <li class="grey">55 500 ₽ / 4 час</li>
+                    <li>Именной диск/флешка</li>
+                    <li>Видео 10-15 минут</li>
+                    <li>Съемка с коптера</li>
+                    <li>Штатный видеограф</li>
+                    <li class="grey"><a href="./application.html" class="button">Отправить заявку</a></li>
+                  </ul>
+                </div>
+            </section>
+    <!-- конец прайса -->
+
+    <div class="about-us-area section-padding-80-0 clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="about-us-content mb-80">
+                        <h3 class="wow fadeInUp" data-wow-delay="100ms">Фото и видео сопровождение</h3>
+                        <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
+                        <p class="wow fadeInUp" data-wow-delay="300ms">  Большой опыт в сопровождении мероприятий.
+                            <b>  Более 10 фотографов и операторов.
+                                Работа с пресс-центром. </b>
+                                SDE — видеоролик, который монтируется и показывается непосредственно в день мероприятия.
+                             </p>
+                        <p class="wow fadeInUp" data-wow-delay="400ms">Работа на фото-зоне.
+                            <b>  по договоренности</b>
+                        
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="about-video-area mb-80 wow fadeInUp" data-wow-delay="100ms">
+                        <img src="img/bg-img/Wedding-Photogr.JPG" alt="Фото и видео сопровождение">
+                        
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- услуги- -->
+        <section class="why-choose-us-area bg-gray section-padding-80-0 clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                            <h2>Услуги дизайнера</h2>
+                            <p style="text-align:center">Цены могут изменяться от сложности съемки.</p>
+                        </div>
+                    </div>
+    
+                    <div class="columns">
+                      <ul class="price">
+                        <li class="header">Базовый</li>
+                        <li class="grey">2 500 ₽ / 1 час</li>
+                        <li>60-120 фотографий</li>
+                        <li>10 обработаных</li>
+                        <li>45 минут студии</li>
+                        <li>Штатный фотограф</li>
+                        <li class="grey"><a href="./application.html" class="button">Отправить заявку</a></li>
+                      </ul>
+                    </div>
+                    
+                    <div class="columns">
+                      <ul class="price">
+                        <li class="header" style="background-color:#9FC8E9">Premium</li>
+                        <li class="grey">15 500 ₽ / 3 час</li>
+                        <li>150-250 фотографий</li>
+                        <li>Услуги стилиста</li>
+                        <li>165 минут студии</li>
+                        <li>Штатный фотограф</li>
+                        <li class="grey"><a href="./application.html" class="button">Отправить заявку</a></li>
+                      </ul>
+                    </div>
+                    
+                    <div class="columns">
+                      <ul class="price">
+                        <li class="header">Свадебный</li>
+                        <li class="grey">45 500 ₽ / 4 час</li>
+                        <li>Альбом фотографий</li>
+                        <li>30 обработаных</li>
+                        <li>150-250 фотографий</li>
+                        <li>Штатный фотограф</li>
+                        <li class="grey"><a href="./application.html" class="button">Отправить заявку</a></li>
+                      </ul>
+                    </div>
+                    </section>
+        <!-- конец прайса -->
+
+    
+    <!--Подписывайся -->
+        <section class="why-choose-us-area bg-gray section-padding-80-0 clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                            <h3>Подписывайся и следи за нашими проектами</h3>
+                            <p style="text-align:center">@prostranstvo.studio</p>
+                        </div>
+                    </div>
+                </section>
+
+
+  
+
+<!-- Футер -->
+<footer class="footer-area " style="margin-top: 15px; margin-bottom: 15px;">
+    <div class="container">
+        <div class="row">
+            <!-- Первая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- логотип -->
+                <div class="footer-logo mb-3">
+                    <a href="./index.html"><img src="img/core-img/logo2.png" alt="Логотип" class="img-fluid"></a>
+                </div>
+                <!-- текст -->
+                <div class="copywrite-text">
+                    <p>&copy; 2024 Студия Пространство</p>
+                </div>
+            </div>
+            
+            <!-- Вторая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- Студия -->
+                <h4>Студия</h4>
+                <ul class="list-unstyled">
+                    <li><a href="./halls.html">Залы</a></li>
+                    <li><a href="./equipment.html">Оборудование</a></li>
+                    <li><a href="./projects.html">Проекты</a></li>
+                    <li><a href="./about.html">О нас</a></li>
+                    <li><a href="./contact.html">Контакты</a></li>
+                    <li><a href="./booking.html">Бронирование</a></li>
+                </ul>
+            </div>
+            
+            <!-- Третья колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- Сотрудники -->
+                <h4>Сотрудники</h4>
+                <ul class="list-unstyled ">
+                    <li><a href="./photographers.html">Фотографы</a></li>
+                    <li><a href="./videographer.html">Видеографы</a></li>
+                    <li><a href="./stylist.html">Стилисты</a></li>
+                    <li><a href="./services.html">Услуги</a></li>
+                </ul>
+            </div>
+            
+            <!-- Четвертая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                    <!-- Контакты -->
+                    <h4>Контакты</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+79999999999">+7-914-270-55-51</a></li>
+                        <li><a href="mailto:prostranstvo.studio@gmail.com">prostranstvo.studio@gmail.com</a></li>
+                        <li>г. Якутск, ул. Крупской, 19</li>
+                    </ul>
+                    <!-- Социальные сети -->
+                        <!-- Соц медиа -->
+                        <div class="social-info">
+                            <a href="https://www.facebook.com/"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="https://x.com/"><i class="ti-twitter-alt" aria-hidden="true"></i></a>
+                            <a href="https://pinterest.com/"><i class="ti-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://pinterest.com/"><i class="ti-pinterest" aria-hidden="true"></i></a>
+                        </div>
+             </div>
+    </div>
+</footer>
+    <!-- конец футера -->
+
+    <!-- **** Все JS файлы ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- сеPlugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+
+</body>
+
+</html>

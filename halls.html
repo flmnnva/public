@@ -1,0 +1,648 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Аренда залов фотостудий.Якутск студия Пространство. ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Пространство</title>
+
+    <!-- Значок сайта -->
+    <link rel="icon" href="./img/core-img/favicon.png">
+
+    <!-- Таблица стилей -->
+    <link rel="stylesheet" href="style.css">
+
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<style type="text/css">
+
+.img_box img{
+   max-width: 100%;
+ }
+
+ .slider_container2 .container2 {
+    padding: 0 10px;
+       max-width: 1170px;
+    margin: 0 auto;
+ }
+
+ .card_slider {
+    padding: 50px 0;
+ }
+
+ /* Стиль кнопки, которая используется для открытия и закрытия сворачиваемого содержимого. */
+.collapsible1 {
+  background-color: #9FC8E9;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Добавьте цвет фона к кнопке, если она нажата (добавьте класс .active с помощью JS) и когда вы наведете на нее указатель мыши (наведите курсор) */
+.active1, .collapsible1:hover {
+  background-color: #c0c0c0;
+}
+
+/* Стиль сворачиваемого содержимого. Примечание: скрыто по умолчанию */
+.content1 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  border: none;
+  background-color: #c7ebff;
+  
+}
+
+.collapsible1:after { /*Символ Unicode для знака «плюс»*/
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active1:after { /*Символ Unicode для знака «минус»*/
+    content: "\2212";
+}
+
+ </style>
+
+</head>
+
+<body>
+    <!-- Предварительный загрузчик -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- конец -->
+
+    
+    <!-- Верхняя область формы поиска -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Введите текст и нажмите Enter...">
+                            <button type="submit">Поиск</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Начало  заголовка -->
+    <header class="header-area">
+        <!-- Начало главного заголовка -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Меню весь -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+
+                        <!-- Логотип -->
+                        <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+
+                        <!-- Переключатель панели навигации -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Кнопка закрытия меню -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Навигация Старт -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li ><a href="#">Студия</a>
+                                        <ul class="dropdown">
+                                            <li class="active"><a href="./halls.html">- Залы</a></li>
+                                            <li><a href="./equipment.html">- Оборудование</a></li>
+                                            <li><a href="./projects.html">- Проекты</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./about.html">О нас</a></li>
+                                    <li><a href="./photographers.html">Сотрудники</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./photographers.html">- Фотографы</a></li>
+                                            <li><a href="./videographer.html">- Видеографы</a></li>
+                                            <li><a href="./stylist.html">- Стилисты</a></li>
+                                        </ul>
+                                    </li>
+                                    <li ><a href="./services.html">Услуги</a></li>
+                                    <li><a href="./contact.html">Контакты</a></li>
+                                </ul>
+
+                                <!-- иконка поиска -->
+                                <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>
+                            </div>
+                            <!-- конец  -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Конец области заголовка -->
+
+    <!-- Начальная область навигации -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/studio/Studio12.jpg);">
+        <div class="container1 h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2 class="page-title">Залы</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i> Главная</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">О нас</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- конец области -->
+
+ <!-- О нас Начало -->
+ <div class="about-us-area section-padding-80-0 clearfix">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="about-us-content mb-80">
+                    <h3 class="wow fadeInUp" data-wow-delay="100ms">Правила фотостудий</h3>
+                    <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
+                    <p class="wow fadeInUp" data-wow-delay="300ms">С основными правила фотостудии вы можете ознакомиться по ссылки или посмотрть видеоролик на нашей странице.</p>
+                    <p class="wow fadeInUp" data-wow-delay="400ms">Оставаить заявку на бронирования вы можете по ссылки внизу</p>
+                    <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="./application.html">Бронирование</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="about-video-area mb-80 wow fadeInUp" data-wow-delay="100ms">
+                    <img src="img/studio/Studio8.jpg" alt="Студия">
+                    <div class="video-icon">
+                        <a href="https://www.youtube.com/watch?v=qdPNAzRF170" class="video-play-btn"><i class="arrow_triangle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="collapsible1">Правила фотостудии</button>
+    <div class="content1">
+      
+        <p>Правила фотостудии являются публичной офертой. Любое лицо с момента бронирования помещения фотостудии либо с начала пользования помещениями фотостудии признается совершившим акцепт публичной оферты в полном объёме и обязуется следовать Правилам.
+         <h6 >Общие положения.</h6>
+
+         <p> Фотостудия «Пространство». Располагается по адресу: <em style="color:#000000">Якутск, ул. Крупской 19, 4 этаж.</em> Лифт отсутствует. </p>
+         <p> Фотостудия «Просвет». Располагается по адресу: <em style="color:#000000"> Якутск, ул. Белинского 44, 2 этаж</em> </p>
+        
+         <p> В целях безопасности в студии ведется видеонаблюдение.
+        
+        Мебель и предметы интерьера, а также их расположение в залах могут отличаться от фотографий, представленных на сайте. 
+        
+        Обращаем ваше внимание, что администрация фотостудии не может гарантировать возможность записи чистового звука.
+        
+        Администрация фотостудии не несет ответственности за забытые и потерянные вещи.<p>
+            
+        <h6>Стоимость.</h6> 
+        <p>Вам будет предоставлена информация о стоимости услуги фотографа и аренды зала, выбранного Вами в процессе оформления заказа.</p>
+
+        <h6>Принимаются следующие способы оплаты при покупке услуг:</h6> 
+
+        <p> 1.	Наличный расчет в студии </p>
+        <p> 2.	Оплата банковской картой </p>
+        <p> 3.	Оплата мобильным банком </p>
+
+        <h6>Возврат товара.</h6>
+        <p>  Клиент направляет в администрацию заявление о возврате денежных средств. Оператор возвращает клиенту денежные средства за вычетом суммы комиссии банка.</p>
+
+        <h6>Правила студии.</h6>
+            Началом арендуемого часа является время, забронированное Вами, а не время фактического появления фотографа в студии и заканчивается за 5 минут до окончания брони.
+
+        <p>В случае проведения мастер-классов, тренингов, презентаций и встреч условия оговариваются отдельно.
+        Минимальная продолжительность аренды зала – 1 час.
+        Заканчивать съёмку необходимо за 10 минут до истечения забронированного времени, чтобы вы успели собраться. Техник за 5 мин проверяет оборудование и подготавливает зал для тех, кто снимает после.
+        За 15 минут до окончания времени аренды оборудованной студии вы можете продлить время бронирования, заранее предупредив об этом администратора и при наличии свободного зала. Задержка в зале свыше забронированного времени автоматически продлевает бронь на час, если данное время уже забронировано вы обязаны освободить зал.
+        Забронированное время оплачивается полностью даже в том случае, если вы закончили раньше.
+        Помощь техника в выставлении света или перемещении реквизита, замена фонов включается в ваше время аренды оборудованной студии, рекомендуется учесть время его работы.
+        Использование импульсных приборов разрешается <b>до 70% его мощности</b>. Следите за режимом синхронизации, в студии разрешается только ручной режим. Скоростная съемка запрещена. 
+        Перед окончанием съёмки необходимо привести зал в порядок. Все реквизиты должны находиться на своих местах. Синхронизатор необходимо отдать технику. 
+        Цена за аренду оборудованной студии указана с условием размещения в зале <b>не более 7 человек</b>. Свыше 7 человек доплата <b>300 рублей</b> с человека и оговаривается отдельно с администрацией студии.
+        Съемки с животными согласуются отдельно с администрацией студии. <b><em>Мы – pet friendly.</em></b> Мы будем рады вашим питомцам, но просим вас ответственно относиться к чистоте фотостудии.  
+        Обычный режим работы – ежедневно <b>с 10.00 до 20.00</b>. Съемки до и сверх часов рабочего режима обсуждается по запросу с администрацией и техником зала.</p>
+
+        <h6>Доплата за переработку технику во внерабочее время:</h6>
+
+        <p>	с 09.00 до 10.00 – 300 руб.</p>
+            <p>	с 20.00 до 21.00 – 300 руб.</p>
+                <p>	с 21.00 до 22.00 – 600 руб.</p>
+                    <p>	с 22.00 до 23.00 – 900 руб.</p>
+                        <p>	с 23.00 до 00.00 – 1200 руб. далее по запросу</p>
+                            
+    <p>Ознакомительный показ залов осуществляется <b>с 10.00 до 20.00</b> при условии, что зал свободен. Убедительная просьба не заглядывать в съемочный зал во время проведения фотосессии.
+        Курение и распитие алкогольных напитков, а также зажигание свечей, использование дымовых шашек в студии запрещено – <b>штраф 1000 рублей</b>.
+        В случае порчи студийного оборудования, аксессуаров и студийного реквизита клиент обязан оплатить стоимость испорченного оборудования или поломанного реквизита.
+        Любые манипуляции с фототехникой, фонами, софтами производятся только техником студии. В противном случае материальная ответственность за испорченный реквизит перекладывается на арендатора.
+        Нахождение в студии осуществляется либо в сменной обуви, либо в бахилах. Убедительная просьба предупредить всех участников съемки о необходимости сменной обуви. За загрязнение и порчу пола и стен <b>штраф 2000 руб/кв м</b>.
+        Покраска белой циклорамы производится <b>каждые 3 недели.</b> Услуга срочной покраски стоит 2000 руб. и производится по предварительной заявке <b>за 2-3 дня</b>.
+        За загрязнение зала (пролитая жидкость и пр.) <b>штраф 1000 руб.</b> за уборку помещения + клиент оплачивает дополнительный час аренды на уборку помещения. Порча бумажного фона, ведущая к отрезанию испорченного фона, возмещается из расчета 500 руб. за погонный метр. О съемках с использованием пачкающих веществ (конфетти, хлопушки, краски, искусственный снег и т.п.) предупреждать заранее и бронировать время с учетом уборки. Съемка без согласования карается <b>штрафом 5000 руб.</b>
+        При предварительном бронировании студии (за 7 дней и более) отмена без неустойки возможна за 4 дня. При отмене за <b>2 дня - неустойка 50%.</b> При отмене в день аренды или неявке неустойка <b>- 100%,</b> в противном случае мы будем вынуждены внести вас в объединённый чёрный список всех фотостудий Якутска.</p>
+         
+    <p> <em> С уважением, администрация фотостудии "ПРОСТРАНСТВО".</em></p>
+        </p>
+
+    </div>
+    </div>
+</div>
+<!-- праила -->
+
+ <!-- Область зал-->
+<section class="our-team-area section-padding-80-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                    <h2>Зал №1</h2>
+                    <h5 style="color:#9FC8E9">Крупская 19</h5>
+                        <p >Зал Большой – от 2500 р/час</p>
+                        <p >ПЛОЩАДЬ – 140 м² / ПОТОЛКИ – 5,7 м / 2 БОЛЬШИХ МАНСАРДНЫХ ОКНА
+                        </p>
+
+                </div>
+            </div>
+        </div>
+
+
+     <!-- Swiper -->
+     <section class="slider_container2  "> 
+  <div class="container2  row align-items-center"">
+    <div class="swiper card_slider">
+        <div class="swiper-wrapper"> 
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio6.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio5.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio5.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio7.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio10.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio7.jpg">
+                </div>
+            </div>
+          </div>
+        <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+               </div>
+ </div>
+ <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+              <h6 >Большой, светлый зал, выполненный полностью в белых тонах, площадью 140 кв.метров, с двумя панорамными мансардными окнами в пол в двумя боковыми окнами стандартного размера. Зал имеет хорошее верхнее освещение, свою входную зону с санузлами. Идеально подходит под любую застройку, масштабные съемки, мастер класс, лекции и мероприятия.
+            </h6>
+             </div>
+        </div>
+    </div>
+</div>   
+  </div>
+</section>
+<!-- конец 1 зал-->
+    
+  <!-- Область зал-->
+<section class="our-team-area section-padding-80-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                    <h2>Зал №2</h2>
+                    <h5 style="color:#9FC8E9">Крупская 19</h5>
+                        <p >Зал Большой – от 2500 р/час</p>
+                        <p >ПЛОЩАДЬ – 140 м² / ПОТОЛКИ – 5,7 м / 2 БОЛЬШИХ МАНСАРДНЫХ ОКНА
+                        </p>
+
+                </div>
+            </div>
+        </div>
+    
+
+
+
+
+     <!-- Swiper -->
+     <section class="slider_container2  "> 
+  <div class="container2  row align-items-center"">
+    <div class="swiper card_slider">
+        <div class="swiper-wrapper"> 
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio6.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio5.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio5.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio7.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio10.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio7.jpg">
+                </div>
+            </div>
+          </div>
+        <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+               </div>
+ </div>
+ <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+              <h6 >Большой, светлый зал, выполненный полностью в белых тонах, площадью 140 кв.метров, с двумя панорамными мансардными окнами в пол в двумя боковыми окнами стандартного размера. Зал имеет хорошее верхнее освещение, свою входную зону с санузлами. Идеально подходит под любую застройку, масштабные съемки, мастер класс, лекции и мероприятия.
+            </h6>
+             </div>
+        </div>
+    </div>
+</div>        
+  </div>
+</section>
+<!-- конец 2 зал-->
+
+
+ <!-- Область зал-->
+ <section class="our-team-area section-padding-80-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                    <h2>Зал №3</h2>
+                    <h5 style="color:#9FC8E9">Крупская 19</h5>
+                        <p>Зал Большой – от 2500 р/час</p>
+                        <p>ПЛОЩАДЬ – 140 м² / ПОТОЛКИ – 5,7 м / 2 БОЛЬШИХ МАНСАРДНЫХ ОКНА
+                        </p>
+
+                </div>
+            </div>
+        </div>
+    
+
+
+
+
+     <!-- Swiper -->
+     <section class="slider_container2  "> 
+  <div class="container2  row align-items-center"">
+    <div class="swiper card_slider">
+        <div class="swiper-wrapper"> 
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio6.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio5.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio5.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio7.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio10.jpg">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="img/studio/Studio7.jpg">
+                </div>
+            </div>
+          </div>
+        <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+               </div>
+               
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                  <h6 >Большой, светлый зал, выполненный полностью в белых тонах, площадью 140 кв.метров, с двумя панорамными мансардными окнами в пол в двумя боковыми окнами стандартного размера. Зал имеет хорошее верхнее освещение, свою входную зону с санузлами. Идеально подходит под любую застройку, масштабные съемки, мастер класс, лекции и мероприятия.
+                </h6>
+                 </div>
+            </div>
+        </div>
+ </div>
+         
+  </div>
+</section>
+
+
+<!-- кконе 1 зал-->
+            
+        
+
+    
+ <!--Подписывайся -->
+ <section class="follow-area clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading text-center">
+                    <h3>Подписывайся и следи за нашим проектами</h3>
+                    <p>@prostranstvo.studio</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Футер -->
+<footer class="footer-area " style="margin-top: 15px; margin-bottom: 15px;">
+    <div class="container">
+        <div class="row">
+            <!-- Первая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- логотип -->
+                <div class="footer-logo mb-3">
+                    <a href="./index.html"><img src="img/core-img/logo2.png" alt="Логотип" class="img-fluid"></a>
+                </div>
+                <!-- текст -->
+                <div class="copywrite-text">
+                    <p>&copy; 2024 Студия Пространство</p>
+                </div>
+            </div>
+            
+            <!-- Вторая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- Студия -->
+                <h4>Студия</h4>
+                <ul class="list-unstyled">
+                    <li><a href="./halls.html">Залы</a></li>
+                    <li><a href="./equipment.html">Оборудование</a></li>
+                    <li><a href="./projects.html">Проекты</a></li>
+                    <li><a href="./about.html">О нас</a></li>
+                    <li><a href="./contact.html">Контакты</a></li>
+                    <li><a href="./booking.html">Бронирование</a></li>
+                </ul>
+            </div>
+            
+            <!-- Третья колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- Сотрудники -->
+                <h4>Сотрудники</h4>
+                <ul class="list-unstyled ">
+                    <li><a href="./photographers.html">Фотографы</a></li>
+                    <li><a href="./videographer.html">Видеографы</a></li>
+                    <li><a href="./stylist.html">Стилисты</a></li>
+                    <li><a href="./services.html">Услуги</a></li>
+                </ul>
+            </div>
+            
+            <!-- Четвертая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                    <!-- Контакты -->
+                    <h4>Контакты</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+79999999999">+7-914-270-55-51</a></li>
+                        <li><a href="mailto:prostranstvo.studio@gmail.com">prostranstvo.studio@gmail.com</a></li>
+                        <li>г. Якутск, ул. Крупской, 19</li>
+                    </ul>
+                    <!-- Социальные сети -->
+                        <!-- Соц медиа -->
+                        <div class="social-info">
+                            <a href="https://www.facebook.com/"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="https://x.com/"><i class="ti-twitter-alt" aria-hidden="true"></i></a>
+                            <a href="https://pinterest.com/"><i class="ti-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://pinterest.com/"><i class="ti-pinterest" aria-hidden="true"></i></a>
+                        </div>
+             </div>
+    </div>
+</footer>
+    <!-- конец футера -->
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script type="text/javascript">
+    var swiper = new Swiper(".card_slider", {
+      spaceBetween: 30,
+      loop: true,
+      speed: 1000,
+      autoplay:{
+        delay: 2000,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+       }, 
+       breakpoints: {
+        320:{
+            slidesPerView:1,
+           },
+        480:{
+            slidesPerView:2,
+           },
+        768:{
+            slidesPerView:3,
+         },
+        1200:{
+            slidesPerView:4,
+        },
+       },
+    });
+  </script>
+
+<script type="text/javascript">  
+var coll = document.getElementsByClassName("collapsible1");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active1");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+
+</html>

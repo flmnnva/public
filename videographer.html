@@ -1,0 +1,368 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Пространство</title>
+
+    <!-- Значок сайта -->
+    <link rel="icon" href="./img/core-img/favicon.png">
+
+    <!-- Таблица стилей -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Предварительный загрузчик -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+
+    <!-- Верхняя область формы поиска -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Введите текст и нажмите Enter...">
+                            <button type="submit">Поиск</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Начало  заголовка -->
+    <header class="header-area">
+        <!-- Начало главного заголовка -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Меню весь -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+
+                        <!-- Логотип -->
+                        <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+
+                        <!-- Переключатель панели навигации -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Кнопка закрытия меню -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Навигация Старт -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="#">Студия</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./halls.html">- Залы</a></li>
+                                            <li><a href="./equipment.html">- Оборудование</a></li>
+                                            <li><a href="./projects.html">- Проекты</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./about.html">О нас</a></li>
+                                    <li ><a href="./photographers.html">Сотрудники</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./photographers.html">- Фотографы</a></li>
+                                            <li class="active"><a href="./videographer.html">- Видеографы</a></li>
+                                            <li><a href="./stylist.html">- Стилисты</a></li>
+                                        </ul>
+                                    </li>
+                                    <li ><a href="./services.html">Услуги</a></li>
+                                    <li><a href="./contact.html">Контакты</a></li>
+                                </ul>
+                                <!-- иконка поиска -->
+                                <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>
+                            </div>
+                            <!-- конец  -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Конец области заголовка -->
+
+    <!-- Начальная область навигации -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/istockphoto.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2 class="page-title">Штат Видеографов</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i> Главная</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Видеографы</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- конец области -->
+
+
+    <!-- Старшие фотографы -->
+    <section class="our-team-area section-padding-80-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                        <h2>Видеографы</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- карточка участника -->
+                <div class="col-md-6 col-xl-3">
+                    <div class="team-content-area text-center mb-30 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="member-thumb">
+                            <img src="img/bg-img/Number=1.png" alt="">
+                        </div>
+                        <h5>Александр Шин</h5>
+                        <span>Старший Видеограф</span>
+                        <div class="member-social-info">
+                            <a href="#"><i class="ti-facebook"></i></a>
+                            <a href="#"><i class="ti-twitter-alt"></i></a>
+                            <a href="#"><i class="ti-linkedin"></i></a>
+                            <a href="#"><i class="ti-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- карточка участника -->
+                <div class="col-md-6 col-xl-3">
+                    <div class="team-content-area text-center mb-30 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="member-thumb">
+                            <img src="img/bg-img/Number=10.png" alt="">
+                        </div>
+                        <h5>Алексей Павлов</h5>
+                        <span>Видеограф</span>
+                        <div class="member-social-info">
+                            <a href="#"><i class="ti-facebook"></i></a>
+                            <a href="#"><i class="ti-twitter-alt"></i></a>
+                            <a href="#"><i class="ti-linkedin"></i></a>
+                            <a href="#"><i class="ti-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- карточка участника -->
+                <div class="col-md-6 col-xl-3">
+                    <div class="team-content-area text-center mb-30 wow fadeInUp" data-wow-delay="500ms">
+                        <div class="member-thumb">
+                            <img src="img/bg-img/Number=11.png" alt="">
+                        </div>
+                        <h5>Михаил Щац</h5>
+                        <span>Старший Видеограф</span>
+                        <div class="member-social-info">
+                            <a href="#"><i class="ti-facebook"></i></a>
+                            <a href="#"><i class="ti-twitter-alt"></i></a>
+                            <a href="#"><i class="ti-linkedin"></i></a>
+                            <a href="#"><i class="ti-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- карточка участника-->
+                <div class="col-md-6 col-xl-3">
+                    <div class="team-content-area text-center mb-30 wow fadeInUp" data-wow-delay="700ms">
+                        <div class="member-thumb">
+                            <img src="img/bg-img/Number=13.png" alt="">
+                        </div>
+                        <h5>Мария Кравей</h5>
+                        <span>Видеограф</span>
+                        <div class="member-social-info">
+                            <a href="#"><i class="ti-facebook"></i></a>
+                            <a href="#"><i class="ti-twitter-alt"></i></a>
+                            <a href="#"><i class="ti-linkedin"></i></a>
+                            <a href="#"><i class="ti-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- конец Старшие фотографы -->
+
+       
+
+     <!--Подписывайся -->
+     <section class="follow-area clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h3>Подписвайся и следи за наши проектами</h3>
+                        <p>@prostranstvo.studio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- инстаграмм лента-->
+        <div class="instragram-feed-area owl-carousel">
+            <!-- инст -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/11.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+            <!-- инст -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/12.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+            <!-- инст -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/13.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+            <!-- инст -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/14.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+            <!-- инст-->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/15.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+            <!-- инст -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/16.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- инст конец -->
+
+
+
+
+<!-- Футер -->
+<footer class="footer-area " style="margin-top: 15px; margin-bottom: 15px;">
+    <div class="container">
+        <div class="row">
+            <!-- Первая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- логотип -->
+                <div class="footer-logo mb-3">
+                    <a href="./index.html"><img src="img/core-img/logo2.png" alt="Логотип" class="img-fluid"></a>
+                </div>
+                <!-- текст -->
+                <div class="copywrite-text">
+                    <p>&copy; 2024 Студия Пространство</p>
+                </div>
+            </div>
+            
+            <!-- Вторая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- Студия -->
+                <h4>Студия</h4>
+                <ul class="list-unstyled">
+                    <li><a href="./halls.html">Залы</a></li>
+                    <li><a href="./equipment.html">Оборудование</a></li>
+                    <li><a href="./projects.html">Проекты</a></li>
+                    <li><a href="./about.html">О нас</a></li>
+                    <li><a href="./contact.html">Контакты</a></li>
+                    <li><a href="./booking.html">Бронирование</a></li>
+                </ul>
+            </div>
+            
+            <!-- Третья колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- Сотрудники -->
+                <h4>Сотрудники</h4>
+                <ul class="list-unstyled ">
+                    <li><a href="./photographers.html">Фотографы</a></li>
+                    <li><a href="./videographer.html">Видеографы</a></li>
+                    <li><a href="./stylist.html">Стилисты</a></li>
+                    <li><a href="./services.html">Услуги</a></li>
+                </ul>
+            </div>
+            
+            <!-- Четвертая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                    <!-- Контакты -->
+                    <h4>Контакты</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+79999999999">+7-914-270-55-51</a></li>
+                        <li><a href="mailto:prostranstvo.studio@gmail.com">prostranstvo.studio@gmail.com</a></li>
+                        <li>г. Якутск, ул. Крупской, 19</li>
+                    </ul>
+                    <!-- Социальные сети -->
+                        <!-- Соц медиа -->
+                        <div class="social-info">
+                            <a href="https://www.facebook.com/"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="https://x.com/"><i class="ti-twitter-alt" aria-hidden="true"></i></a>
+                            <a href="https://pinterest.com/"><i class="ti-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://pinterest.com/"><i class="ti-pinterest" aria-hidden="true"></i></a>
+                        </div>
+             </div>
+    </div>
+</footer>
+    <!-- конец футера -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+
+</body>
+
+</html>

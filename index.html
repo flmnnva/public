@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Это творческое пространство, которое создала команда фотографов, дизайнеров, декораторов и архитекторов, чья мечта об идеальном творческом пространств">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Пространство</title>
+
+    <!-- Значок сайта -->
+    <link rel="icon" href="./img/core-img/favicon.png">
+
+    <!-- Таблица стилей -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Предварительный загрузчик -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- конец -->
+
+    <!-- Верхняя область формы поиска -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Введите текст и нажмите Enter...">
+                            <button type="submit">Поиск</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Начало  заголовка -->
+    <header class="header-area">
+        <!-- Начало главного заголовка -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Меню весь -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+
+                        <!-- Логотип -->
+                        <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+
+                        <!--Переключатель панели навигации -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Меню -->
+                        <div class="classy-menu">
+                            <!-- Кнопка закрытия меню -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Навигация Старт -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="#">Студия</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./halls.html">- Залы</a></li>
+                                            <li><a href="./equipment.html">- Оборудование</a></li>
+                                            <li><a href="./projects.html">- Проекты</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./about.html">О нас</a></li>
+                                    <li><a href="./photographers.html">Сотрудники</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./photographers.html">- Фотографы</a></li>
+                                            <li><a href="./videographer.html">- Видеографы</a></li>
+                                            <li><a href="./stylist.html">- Стилисты</a></li>
+                                        </ul>
+                                    </li>
+                                    <li ><a href="./services.html">Услуги</a></li>
+                                    <li><a href="./contact.html">Контакты</a></li>
+                                </ul>
+
+                                <!-- Иконка поиска-->
+                                <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>
+                            </div>
+                            
+                            <!-- конец -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Конец области заголовка -->
+
+    <!-- Слайдер -->
+    <section class="welcome-area">
+        <div class="welcome-slides owl-carousel">
+
+            <!-- один слайд  -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+
+                        <!-- текст приветствие -->
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <h2 data-animation="bounceInDown" data-delay="900ms">Студия<br>Пространство</h2>
+                                <p data-animation="bounceInDown" data-delay="500ms">Фотографы, видеооператоры, звукооператоры, дизайнеры, визажисты, стилисты, художники, маркетологи — все вместе готовы создавать новые продукты, задавать тон для подрастающего поколения, выводить Якутию на новый уровень!</p>
+                                <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
+                                    <a href="./halls.html" class="btn alime-btn mb-3 mb-sm-0 mr-4">Посмотреть студии</a>
+                                    <a href="./application.html" class="btn alime-btn mb-3 mb-sm-0 mr-4">Заборнировать студию</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--один слайд -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <!-- текст приветствие -->
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <h2 data-animation="bounceInUp" data-delay="100ms">Школа <br>Пространство</h2>
+                                <p data-animation="bounceInUp" data-delay="500ms">Освоите нюансы профессиональной фотографии. Научитесь выстраивать кадр, проводить съёмки и обрабатывать снимки. Сможете делать крутые фото для себя или начать творческую карьеру.</p>
+                                <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
+                                    <a href="./about.html" class="btn alime-btn mb-3 mb-sm-0 mr-4">Подробнее</a>
+                                    <a href="./application.html" class="btn alime-btn mb-3 mb-sm-0 mr-4">Записаться</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--конец--> 
+
+    <!-- о создании -->
+    <section class="about-us-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="as-pic">
+                        <img src="img/bg-img/ph.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="as-text">
+                        <div class="section-title">
+                            <span>АЛЕКСЕЙ ПАВЛОВ</span>
+                            <h2>История создания</h2>
+                        </div>
+                        <p class="f-para">Основать творческую платформу "Пространства" пришло задолго до появления первых студий в городе....</p>
+                        <p class="s-para">– Я работал агентом по недвижимости и занимался фотографией как любитель.
+
+                            Мне давно хотелось сделать что-то для души и, как только появилась возможность, решил открыть фотостудию. 
+                            Постепенно стал уделять ей все больше времени, особенно с учетом ситуации на рынке недвижимости. Сейчас кризис, работы для агентов мало. </p>
+                        <a href="./single-blog.html"  class="btn alime-btn text-dark mb-3 mb-sm-0 mr-4">Читать дальше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- конец о истории -->
+
+    <!--Секция услуг -->
+    <section class="why-choose-us-area bg-gray section-padding-80-0 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading text-center">
+                        <span>Наши услуги</span>
+                        <h3>Лучшая студия в городе</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <img src="img/services/" alt="">
+                        <h4>Специалисты</h4>
+                        <p>Лучшие специалисты города</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <img src="img/services/" alt="">
+                        <h4>Бронирование</h4>
+                        <p>Удобное бронирование залов</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <img src="img/services/" alt="">
+                        <h4>Make Up</h4>
+                        <p>У нашей студии есть свой стилист который поможет сделать ваш образ безупречный</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- конец Секция услуг -->
+
+
+
+    <!-- Галерея  Старт -->
+    <div class="alime-portfolio-area section-padding-80 clearfix">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Работы Студии</h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <!-- меню проектов -->
+                    <div class="alime-projects-menu">
+                        <div class="portfolio-menu text-center">
+                            <button class="btn active" data-filter="*">Все</button>
+                            <button class="btn" data-filter=".human">Портреты</button>
+                            <button class="btn" data-filter=".nature">Выездные</button>
+                            <button class="btn" data-filter=".country">Творческие</button>
+                            <button class="btn" data-filter=".video">Видео</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row alime-portfolio">
+                <!-- галерея -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/3.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="img/bg-img/3.jpg" class="portfolio-img">+</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Один элемент галереи -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/4.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="img/bg-img/4.jpg" class="portfolio-img">+</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Один элемент галереи -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item country mb-30 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/5.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="img/bg-img/5.jpg" class="portfolio-img">+</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Один элемент галереи -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp" data-wow-delay="700ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/6.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="img/bg-img/6.jpg" class="portfolio-img">+</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Один элемент галереи -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/7.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="img/bg-img/7.jpg" class="portfolio-img">+</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Один элемент галереи-->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video country mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/8.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="img/bg-img/8.jpg" class="portfolio-img">+</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Один элемент галереи -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/10.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="img/bg-img/10.jpg" class="portfolio-img">+</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Один элемент галереи -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp" data-wow-delay="700ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/9.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="img/bg-img/9.jpg" class="portfolio-img">+</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Один элемент галереи -->
+                <div class="col-12 col-sm-6 col-lg-6 single_gallery_item video country mb-30 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/36.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="img/bg-img/36.jpg" class="portfolio-img">+</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Один элемент галереи -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/37.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="img/bg-img/37.jpg" class="portfolio-img">+</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Один элемент галереи-->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item country mb-30 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-portfolio-content">
+                        <img src="img/bg-img/5.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="img/bg-img/5.jpg" class="portfolio-img">+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="700ms">
+                    <a href="./single-blog.html" class="btn alime-btn btn-2 mt-15">Смотреть дальше</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- конец галереи-->
+
+<!-- Курсы школы пространства -->
+<section class="popular-courses-area section-padding-100-0" style="background-image: url(img/core-img/texture.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading">
+                    <h3>Курсы школы пространства</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!--  популярный курс -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                    <img src="img/bg-img/123.jpg" alt="">
+                    <!-- Содержание курса -->
+                    <div class="course-content">
+                        <h4>Студийная съемка</h4>
+                        <div class="meta d-flex align-items-center">
+                            <a href="#">Александр Шин</a>
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            <a href="#">Фото &amp; Студия</a>
+                        </div>
+                        <p>Основы студийной съемки от Александр Шина.Вас ждет много практики.</p>
+                    </div>
+                    <!-- Плата за  места-->
+                    <div class="seat-rating-fee d-flex justify-content-between">
+                        <div class="seat-rating h-100 d-flex align-items-center">
+                            <div class="seat">
+                                <i class="fa fa-user" aria-hidden="true"></i> 10
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i> 4.5
+                            </div>
+                        </div>
+                        <div class="course-fee h-100">
+                            <a href="./services.html" class="free">7 500₽ </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- популярный курс -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                    <img src="img/bg-img/Снимок3.JPG" alt="">
+                    <!-- Содержание курса  -->
+                    <div class="course-content">
+                        <h4>«Видеография 2.0»</h4>
+                        <div class="meta d-flex align-items-center">
+                            <a href="#">с Алексеем Павловым</a>
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            <a href="#">Фото &amp; Студия</a>
+                        </div>
+                        <p>Преподаватель – основатель творческой платформы Пространство – Алексей Павлов</p>
+                    </div>
+                    <!-- плата за  места -->
+                    <div class="seat-rating-fee d-flex justify-content-between">
+                        <div class="seat-rating h-100 d-flex align-items-center">
+                            <div class="seat">
+                                <i class="fa fa-user" aria-hidden="true"></i> 10
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i> 5.0
+                            </div>
+                        </div>
+                        <div class="course-fee h-100">
+                            <a href="./services.html">8 500₽ </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- популярный курс -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                    <img src="img/bg-img/Без названия.jpg" alt="">
+                    <!--Содержание курса -->
+                    <div class="course-content">
+                        <h4>Основы студийной съёмки</h4>
+                        <div class="meta d-flex align-items-center">
+                            <a href="#">Александр Шин</a>
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            <a href="#">Фото &amp; Студия</a>
+                        </div>
+                        <p>Вас ждёт много практики в фотостудии: настройка света и камеры, работа с моделями и обработка фото</p>
+                    </div>
+                    <!--плата за  места -->
+                    <div class="seat-rating-fee d-flex justify-content-between">
+                        <div class="seat-rating h-100 d-flex align-items-center">
+                            <div class="seat">
+                                <i class="fa fa-user" aria-hidden="true"></i> 10
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i> 4.5
+                            </div>
+                        </div>
+                        <div class="course-fee h-100">
+                            <a href="./services.html">10 000₽ </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- конец курсов -->
+
+
+     
+    <!--Подписывайся -->
+    <section class="follow-area clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h3>Подписывайся и следи за наши проектами</h3>
+                        <p>@prostranstvo.studio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- инстаграмм лента-->
+        <div class="instragram-feed-area owl-carousel">
+            <!-- инст -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/11.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+            <!-- инст -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/12.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+            <!-- инст -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/13.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+            <!-- инст -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/14.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+            <!-- инст-->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/15.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+            <!-- инст -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/16.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>@prostranstvo.studio</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- инст конец -->
+
+
+
+<!-- Футер -->
+<footer class="footer-area " style="margin-top: 15px; margin-bottom: 15px;">
+    <div class="container">
+        <div class="row">
+            <!-- Первая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- логотип -->
+                <div class="footer-logo mb-3">
+                    <a href="./index.html"><img src="img/core-img/logo2.png" alt="Логотип" class="img-fluid"></a>
+                </div>
+                <!-- текст -->
+                <div class="copywrite-text">
+                    <p>&copy; 2024 Студия Пространство</p>
+                </div>
+            </div>
+            
+            <!-- Вторая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- Студия -->
+                <h4>Студия</h4>
+                <ul class="list-unstyled">
+                    <li><a href="./halls.html">Залы</a></li>
+                    <li><a href="./equipment.html">Оборудование</a></li>
+                    <li><a href="./projects.html">Проекты</a></li>
+                    <li><a href="./about.html">О нас</a></li>
+                    <li><a href="./contact.html">Контакты</a></li>
+                    <li><a href="./booking.html">Бронирование</a></li>
+                </ul>
+            </div>
+            
+            <!-- Третья колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <!-- Сотрудники -->
+                <h4>Сотрудники</h4>
+                <ul class="list-unstyled ">
+                    <li><a href="./photographers.html">Фотографы</a></li>
+                    <li><a href="./videographer.html">Видеографы</a></li>
+                    <li><a href="./stylist.html">Стилисты</a></li>
+                    <li><a href="./services.html">Услуги</a></li>
+                </ul>
+            </div>
+            
+            <!-- Четвертая колонка -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                    <!-- Контакты -->
+                    <h4>Контакты</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+79999999999">+7-914-270-55-51</a></li>
+                        <li><a href="mailto:prostranstvo.studio@gmail.com">prostranstvo.studio@gmail.com</a></li>
+                        <li>г. Якутск, ул. Крупской, 19</li>
+                    </ul>
+                    <!-- Социальные сети -->
+                        <!-- Соц медиа -->
+                        <div class="social-info">
+                            <a href="https://www.facebook.com/"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="https://x.com/"><i class="ti-twitter-alt" aria-hidden="true"></i></a>
+                            <a href="https://pinterest.com/"><i class="ti-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://pinterest.com/"><i class="ti-pinterest" aria-hidden="true"></i></a>
+                        </div>
+             </div>
+    </div>
+</footer>
+    <!-- конец футера -->
+
+    <!-- **** Все JS файлы ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- сеPlugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+
+</body>
+
+</html>
